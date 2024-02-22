@@ -17,6 +17,12 @@ $alignments: (
   flex-direction: column;
 }
 
+@media (min-width: 600px) {
+  .flex {
+    flex-direction: row;
+  }
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -37,10 +43,4 @@ $alignments: (
 
 .flex-fill {
   flex: 1;
-}
-
-@media (min-width: 600px) {
-  .flex {
-    flex-direction: row;
-  }
 }

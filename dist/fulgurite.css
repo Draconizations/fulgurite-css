@@ -639,6 +639,11 @@ button, input[type=submit], input[type=reset] {
   flex-direction: column;
 }
 
+@media (min-width: 600px) {
+  .flex {
+    flex-direction: row;
+  }
+}
 .flex-col {
   flex-direction: column;
 }
@@ -707,11 +712,6 @@ button, input[type=submit], input[type=reset] {
   flex: 1;
 }
 
-@media (min-width: 600px) {
-  .flex {
-    flex-direction: row;
-  }
-}
 .row {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
