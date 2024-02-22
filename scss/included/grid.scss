@@ -22,7 +22,7 @@ $divisions: (
 }
 
 .col {
- grid-column: span 12;
+    grid-column: span 12;
 }
 
 @each $keyword, $span in $divisions {

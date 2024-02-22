@@ -79,7 +79,7 @@ hr {
   flex-direction: column;
   gap: 1rem;
   width: 100%;
- }
+}
 
 .block {
   padding: 1rem;
@@ -122,16 +122,21 @@ ul {
   padding-right: 1rem;
 }
 
-button, input[type="submit"], input[type="reset"] {
+button,
+input[type="submit"],
+input[type="reset"] {
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
 }
 
-.btn, button, input[type="submit"], input[type="reset"] {
+.btn,
+button,
+input[type="submit"],
+input[type="reset"] {
   display: inline-block;
   text-decoration: none;
   background-color: var(--btn-bg-color);
@@ -142,7 +147,10 @@ button, input[type="submit"], input[type="reset"] {
   justify-content: center;
 }
 
-.btn, button, input[type="submit"], input[type="reset"]:hover {
+.btn,
+button,
+input[type="submit"],
+input[type="reset"]:hover {
   background-color: var(--btn-bg-color--hover);
   color: var(--btn-text-color--hover);
 }
@@ -154,8 +162,8 @@ button, input[type="submit"], input[type="reset"] {
 
 @media(min-width: 600px) {
   .container {
-   width: 80%;
-   min-width: 35rem;
-   max-width: 42rem;
+    width: 80%;
+    min-width: 35rem;
+    max-width: 42rem;
   }
 }

@@ -27,7 +27,7 @@ body {
   background-repeat: var(--bg-repeat);
   background-attachment: fixed;
   color: var(--bg-text);
- }
+}
 
 body::after {
   position: absolute;
@@ -38,4 +38,4 @@ body::after {
   z-index: -5;
   content: "";
   background-attachment: fixed;
- }
+}

@@ -19,7 +19,7 @@
   padding: 0;
 }
 
-.tab-nav > li {
+.tab-nav>li {
   display: flex;
   padding: 0;
   margin: 0;
@@ -63,12 +63,12 @@
   display: flex;
 }
 
-.tab:target ~ .tab.default {
-display: none; 
+.tab:target~.tab.default {
+  display: none;
 }
 
-@media(min-width: 600px) {  
-  .tab-nav > li {
-   width: auto; 
+@media(min-width: 600px) {
+  .tab-nav>li {
+    width: auto;
   }
 }
