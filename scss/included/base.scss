@@ -156,8 +156,8 @@ input[type="reset"]:hover {
 }
 
 .btn a:hover {
-  color: var(--btn-text-color-hover);
-  background-color: var(--btn-bg-color-hover);
+  color: var(--btn-text-color--hover);
+  background-color: var(--btn-bg-color--hover);
 }
 
 @media(min-width: 600px) {
