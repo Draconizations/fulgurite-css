@@ -5,7 +5,9 @@
   "scripts": {
     "scss": "run-s scss:*",
     "scss:compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/",
-    "scss:minify": "cleancss --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/ --batch --batch-suffix \".min\" \"dist/*.css\" \"!dist/*.min.css\""
+    "scss:minfiy": "run-p scss:minify:*",
+    "scss:minify:base": "cleancss --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/ --batch --batch-suffix \".min\" \"dist/*.css\" \"!dist/*.min.css\"",
+    "scss:minify:extra": "cleancss --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/extras/ --batch --batch-suffix \".min\" \"dist/extras/*.css\" \"!dist/extras/*.min.css\""
   },
   "keywords": [],
   "author": "",
