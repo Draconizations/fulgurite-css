@@ -37,3 +37,9 @@ $alignments: (
 .flex-fill {
   flex: 1;
 }
+
+@media (min-width: 600px) {
+  .flex {
+    flex-direction: row;
+  }
+}

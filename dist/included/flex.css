@@ -74,4 +74,10 @@
   flex: 1;
 }
 
+@media (min-width: 600px) {
+  .flex {
+    flex-direction: row;
+  }
+}
+
 /*# sourceMappingURL=flex.css.map */
