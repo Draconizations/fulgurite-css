@@ -142,6 +142,7 @@ button, input[type=submit], input[type=reset] {
     max-width: 42rem;
   }
 }
+.flex,
 .flex-col,
 .flex-row {
   display: flex;
