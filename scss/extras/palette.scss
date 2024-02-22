@@ -38,7 +38,7 @@ hr {
   input[type="reset"].#{$color}-bg:hover,
   a.#{$color}-text:hover,
   .url.#{$color}-text:hover {
-    background-color: var(--color-#{$color}--hover);
+    background-color: var(--color-#{$color}--hover) !important;
   }
 
   .#{$color}-text {
@@ -51,6 +51,6 @@ hr {
   input[type="reset"].#{$color}-bg:hover,
   a.#{$color}-text:hover,
   .url.#{$color}-text:hover {
-    color: var(--color-#{$color}--hover);
+    color: var(--color-#{$color}--hover) !important;
   }
 }
