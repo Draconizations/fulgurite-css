@@ -31,7 +31,7 @@ input[type=submit].accent-bg:hover,
 input[type=reset].accent-bg:hover,
 a.accent-text:hover,
 .url.accent-text:hover {
-  background-color: var(--color-accent--hover);
+  background-color: var(--color-accent--hover) !important;
 }
 
 .accent-text {
@@ -44,7 +44,7 @@ input[type=submit].accent-bg:hover,
 input[type=reset].accent-bg:hover,
 a.accent-text:hover,
 .url.accent-text:hover {
-  color: var(--color-accent--hover);
+  color: var(--color-accent--hover) !important;
 }
 
 .success-bg {
@@ -58,7 +58,7 @@ input[type=submit].success-bg:hover,
 input[type=reset].success-bg:hover,
 a.success-text:hover,
 .url.success-text:hover {
-  background-color: var(--color-success--hover);
+  background-color: var(--color-success--hover) !important;
 }
 
 .success-text {
@@ -71,7 +71,7 @@ input[type=submit].success-bg:hover,
 input[type=reset].success-bg:hover,
 a.success-text:hover,
 .url.success-text:hover {
-  color: var(--color-success--hover);
+  color: var(--color-success--hover) !important;
 }
 
 .error-bg {
@@ -85,7 +85,7 @@ input[type=submit].error-bg:hover,
 input[type=reset].error-bg:hover,
 a.error-text:hover,
 .url.error-text:hover {
-  background-color: var(--color-error--hover);
+  background-color: var(--color-error--hover) !important;
 }
 
 .error-text {
@@ -98,7 +98,7 @@ input[type=submit].error-bg:hover,
 input[type=reset].error-bg:hover,
 a.error-text:hover,
 .url.error-text:hover {
-  color: var(--color-error--hover);
+  color: var(--color-error--hover) !important;
 }
 
 .warning-bg {
@@ -112,7 +112,7 @@ input[type=submit].warning-bg:hover,
 input[type=reset].warning-bg:hover,
 a.warning-text:hover,
 .url.warning-text:hover {
-  background-color: var(--color-warning--hover);
+  background-color: var(--color-warning--hover) !important;
 }
 
 .warning-text {
@@ -125,7 +125,7 @@ input[type=submit].warning-bg:hover,
 input[type=reset].warning-bg:hover,
 a.warning-text:hover,
 .url.warning-text:hover {
-  color: var(--color-warning--hover);
+  color: var(--color-warning--hover) !important;
 }
 
 .info-bg {
@@ -139,7 +139,7 @@ input[type=submit].info-bg:hover,
 input[type=reset].info-bg:hover,
 a.info-text:hover,
 .url.info-text:hover {
-  background-color: var(--color-info--hover);
+  background-color: var(--color-info--hover) !important;
 }
 
 .info-text {
@@ -152,7 +152,7 @@ input[type=submit].info-bg:hover,
 input[type=reset].info-bg:hover,
 a.info-text:hover,
 .url.info-text:hover {
-  color: var(--color-info--hover);
+  color: var(--color-info--hover) !important;
 }
 
 /*# sourceMappingURL=palette.css.map */

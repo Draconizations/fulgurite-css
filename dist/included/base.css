@@ -110,7 +110,9 @@ ul {
   padding-right: 1rem;
 }
 
-button, input[type=submit], input[type=reset] {
+button,
+input[type=submit],
+input[type=reset] {
   background: none;
   color: inherit;
   border: none;
@@ -119,7 +121,10 @@ button, input[type=submit], input[type=reset] {
   cursor: pointer;
 }
 
-.btn, button, input[type=submit], input[type=reset] {
+.btn,
+button,
+input[type=submit],
+input[type=reset] {
   display: inline-block;
   text-decoration: none;
   background-color: var(--btn-bg-color);
@@ -130,14 +135,17 @@ button, input[type=submit], input[type=reset] {
   justify-content: center;
 }
 
-.btn, button, input[type=submit], input[type=reset]:hover {
+.btn:hover,
+button:hover,
+input[type=submit]:hover,
+input[type=reset]:hover {
   background-color: var(--btn-bg-color--hover);
   color: var(--btn-text-color--hover);
 }
 
-.nav-item a:hover {
-  color: var(--btn-text-color-hover);
-  background-color: var(--btn-bg-color-hover);
+a.btn:hover {
+  color: var(--btn-text-color--hover);
+  background-color: var(--btn-bg-color--hover);
 }
 
 @media (min-width: 600px) {

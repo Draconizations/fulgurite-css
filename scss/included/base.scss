@@ -147,15 +147,15 @@ input[type="reset"] {
   justify-content: center;
 }
 
-.btn,
-button,
-input[type="submit"],
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
 input[type="reset"]:hover {
   background-color: var(--btn-bg-color--hover);
   color: var(--btn-text-color--hover);
 }
 
-.btn a:hover {
+a.btn:hover {
   color: var(--btn-text-color--hover);
   background-color: var(--btn-bg-color--hover);
 }
