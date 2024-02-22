@@ -130,6 +130,11 @@ button, input[type=submit], input[type=reset] {
   justify-content: center;
 }
 
+.btn, button, input[type=submit], input[type=reset] {
+  background-color: var(--btn-bg-color--hover);
+  color: var(--btn-text-color--hover);
+}
+
 .nav-item a:hover {
   color: var(--btn-text-color-hover);
   background-color: var(--btn-bg-color-hover);
