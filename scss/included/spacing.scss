@@ -74,3 +74,9 @@ $sizes: (
     padding-bottom: $size;
   }
 }
+
+@each $key, $size in $sizes {
+  .gap-#{$key} {
+    gap: $size;
+  }
+}
