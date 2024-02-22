@@ -1,0 +1,56 @@
+$colors: accent, success, error, warning, info;
+
+:root {
+  --color-accent: #aaaaaa;
+  --color-accent--hover: #888888;
+  --color-accent-text: #161616;
+
+  --color-success: #1ea365;
+  --color-success--hover: #118a6f;
+  --color-success-text: #ffffff;
+
+  --color-error: #c4212f;
+  --color-error--hover: #7c0e26;
+  --color-error-text: #ffffff;
+
+  --color-warning: #cea430;
+  --color-warning--hover: #b67225;
+  --color-warning-text: #000000;
+
+  --color-info: #217bc4;
+  --color-info--hover: #0d478a;
+  --color-info-text: #000000;
+}
+
+hr {
+  background-color: var(--color-accent);
+}
+
+@each $color in $colors {
+  .#{$color}-bg {
+    background-color: var(--color-#{$color});
+    color: var(--color-#{$color}-text);
+  }
+
+  button.#{$color}-bg:hover,
+  .btn.#{$color}-bg:hover,
+  input[type="submit"].#{$color}-bg:hover,
+  input[type="reset"].#{$color}-bg:hover,
+  a.#{$color}-text:hover,
+  .url.#{$color}-text:hover {
+    background-color: var(--color-#{$color}--hover);
+  }
+
+  .#{$color}-text {
+    color: var(--color-#{$color});
+  }
+
+  button.#{$color}-bg:hover,
+  .btn.#{$color}-bg:hover,
+  input[type="submit"].#{$color}-bg:hover,
+  input[type="reset"].#{$color}-bg:hover,
+  a.#{$color}-text:hover,
+  .url.#{$color}-text:hover {
+    color: var(--color-#{$color}--hover);
+  }
+}

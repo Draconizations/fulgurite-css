@@ -1,0 +1,158 @@
+:root {
+  --color-accent: #aaaaaa;
+  --color-accent--hover: #888888;
+  --color-accent-text: #161616;
+  --color-success: #1ea365;
+  --color-success--hover: #118a6f;
+  --color-success-text: #ffffff;
+  --color-error: #c4212f;
+  --color-error--hover: #7c0e26;
+  --color-error-text: #ffffff;
+  --color-warning: #cea430;
+  --color-warning--hover: #b67225;
+  --color-warning-text: #000000;
+  --color-info: #217bc4;
+  --color-info--hover: #0d478a;
+  --color-info-text: #000000;
+}
+
+hr {
+  background-color: var(--color-accent);
+}
+
+.accent-bg {
+  background-color: var(--color-accent);
+  color: var(--color-accent-text);
+}
+
+button.accent-bg:hover,
+.btn.accent-bg:hover,
+input[type=submit].accent-bg:hover,
+input[type=reset].accent-bg:hover,
+a.accent-text:hover,
+.url.accent-text:hover {
+  background-color: var(--color-accent--hover);
+}
+
+.accent-text {
+  color: var(--color-accent);
+}
+
+button.accent-bg:hover,
+.btn.accent-bg:hover,
+input[type=submit].accent-bg:hover,
+input[type=reset].accent-bg:hover,
+a.accent-text:hover,
+.url.accent-text:hover {
+  color: var(--color-accent--hover);
+}
+
+.success-bg {
+  background-color: var(--color-success);
+  color: var(--color-success-text);
+}
+
+button.success-bg:hover,
+.btn.success-bg:hover,
+input[type=submit].success-bg:hover,
+input[type=reset].success-bg:hover,
+a.success-text:hover,
+.url.success-text:hover {
+  background-color: var(--color-success--hover);
+}
+
+.success-text {
+  color: var(--color-success);
+}
+
+button.success-bg:hover,
+.btn.success-bg:hover,
+input[type=submit].success-bg:hover,
+input[type=reset].success-bg:hover,
+a.success-text:hover,
+.url.success-text:hover {
+  color: var(--color-success--hover);
+}
+
+.error-bg {
+  background-color: var(--color-error);
+  color: var(--color-error-text);
+}
+
+button.error-bg:hover,
+.btn.error-bg:hover,
+input[type=submit].error-bg:hover,
+input[type=reset].error-bg:hover,
+a.error-text:hover,
+.url.error-text:hover {
+  background-color: var(--color-error--hover);
+}
+
+.error-text {
+  color: var(--color-error);
+}
+
+button.error-bg:hover,
+.btn.error-bg:hover,
+input[type=submit].error-bg:hover,
+input[type=reset].error-bg:hover,
+a.error-text:hover,
+.url.error-text:hover {
+  color: var(--color-error--hover);
+}
+
+.warning-bg {
+  background-color: var(--color-warning);
+  color: var(--color-warning-text);
+}
+
+button.warning-bg:hover,
+.btn.warning-bg:hover,
+input[type=submit].warning-bg:hover,
+input[type=reset].warning-bg:hover,
+a.warning-text:hover,
+.url.warning-text:hover {
+  background-color: var(--color-warning--hover);
+}
+
+.warning-text {
+  color: var(--color-warning);
+}
+
+button.warning-bg:hover,
+.btn.warning-bg:hover,
+input[type=submit].warning-bg:hover,
+input[type=reset].warning-bg:hover,
+a.warning-text:hover,
+.url.warning-text:hover {
+  color: var(--color-warning--hover);
+}
+
+.info-bg {
+  background-color: var(--color-info);
+  color: var(--color-info-text);
+}
+
+button.info-bg:hover,
+.btn.info-bg:hover,
+input[type=submit].info-bg:hover,
+input[type=reset].info-bg:hover,
+a.info-text:hover,
+.url.info-text:hover {
+  background-color: var(--color-info--hover);
+}
+
+.info-text {
+  color: var(--color-info);
+}
+
+button.info-bg:hover,
+.btn.info-bg:hover,
+input[type=submit].info-bg:hover,
+input[type=reset].info-bg:hover,
+a.info-text:hover,
+.url.info-text:hover {
+  color: var(--color-info--hover);
+}
+
+/*# sourceMappingURL=palette.css.map */

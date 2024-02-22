@@ -1,0 +1,56 @@
+$alignments: start, center, end;
+$sizes: (
+    "sm": 576px,
+    "md": 720px,
+    "lg": 960px,
+    "xl": 1140px,
+    "xxl": 1300px
+);
+$divisions: (
+    "half": 6,
+    "third": 4,
+    "fourth": 3,
+    "sixth": 2,
+    "twelfth": 1,
+);
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.col {
+ grid-column: span 12;
+}
+
+@each $keyword, $span in $divisions {
+    .col-#{$keyword} {
+        grid-column: span $span;
+    }
+}
+
+@each $alignment in $alignments {
+    .col-#{$alignment} {
+        justify-self: $alignment;
+    }
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        display: flex;
+        flex-direction: column;
+        grid-column: span $i;
+    }
+}
+
+@each $name, $pixels in $sizes {
+    @media (min-width: $pixels) {
+        @for $i from 1 through 12 {
+            .col-#{$name}-#{$i} {
+                grid-column: span $i;
+            }
+        }
+    }
+}

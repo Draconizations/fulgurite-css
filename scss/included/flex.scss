@@ -1,0 +1,39 @@
+$alignments: (
+  "start": flex-start,
+  "center": center,
+  "around": space-around,
+  "between": space-between,
+  "end": flex-end,
+  "evenly": space-evenly,
+  "stretch": stretch
+);
+
+.flex-col,
+.flex-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+@each $keyword, $alignment in $alignments {
+  .align-#{$keyword} {
+    align-items: $alignment;
+  }
+
+  .justify-#{$keyword} {
+    justify-content: $alignment;
+  }
+}
+
+.flex-fill {
+  flex: 1;
+}

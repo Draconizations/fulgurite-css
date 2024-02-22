@@ -1,0 +1,76 @@
+$sizes: (
+  "2": 2rem,
+  "15": 1.5rem,
+  "1": 1rem,
+  "075": 0.75rem,
+  "05": 0.5rem,
+  "025": 0.25rem
+);
+
+@each $key, $size in $sizes {
+  .m-#{$key} {
+    margin: $size;
+  }
+
+  .p-#{$key} {
+    padding: $size;
+  }
+}
+
+@each $key, $size in $sizes {
+  .my-#{$key} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+
+  .py-#{$key} {
+    padding-top: $size;
+    padding-bottom: $size;
+  }
+}
+
+@each $key, $size in $sizes {
+  .mx-#{$key} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+
+  .px-#{$key} {
+    padding-left: $size;
+    padding-right: $size;
+  }
+}
+
+@each $key, $size in $sizes {
+  .ml-#{$key} {
+    margin-left: $size;
+  }
+
+  .mr-#{$key} {
+    margin-right: $size;
+  }
+
+  .mt-#{$key} {
+    margin-top: $size;
+  }
+
+  .mb-#{$key} {
+    margin-bottom: $size;
+  }
+
+  .pl-#{$key} {
+    padding-left: $size;
+  }
+
+  .pr-#{$key} {
+    padding-right: $size;
+  }
+
+  .pt-#{$key} {
+    padding-top: $size;
+  }
+
+  .pb-#{$key} {
+    padding-bottom: $size;
+  }
+}

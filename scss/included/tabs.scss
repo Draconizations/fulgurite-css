@@ -1,0 +1,74 @@
+:root {
+  --tab-nav-bg-color: #ffffff;
+  --tab-nav-bg-color--hover: #e5eaec;
+  --tab-nav-url-color: #08588d;
+  --tab-nav-url-color--hover: #0790a8;
+  --tab-height: 25rem;
+  --tab-overflow: visible;
+}
+
+/* TABS */
+.tab-nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-nav > li {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.tab-nav a {
+  display: block;
+  color: var(--tab-url-color);
+  flex: 1 1 0;
+  padding: 0.5rem;
+  background: var(--tab-nav-bg-color);
+  text-decoration: none;
+}
+
+.tab-link:hover {
+  color: var(--tab-nav-url-hover);
+  background: var(--tab-nav-bg-hover);
+  text-decoration: underline;
+}
+
+.tab-container {
+  padding-right: 0.5rem;
+}
+
+.tab {
+  min-height: 100%;
+  height: var(--tab-height);
+  display: none;
+  padding-right: 0.5rem;
+  overflow: var(--tab-overflow);
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.tab.default {
+  display: flex;
+}
+
+.tab:target {
+  display: flex;
+}
+
+.tab:target ~ .tab.default {
+display: none; 
+}
+
+@media(min-width: 600px) {  
+  .tab-nav > li {
+   width: auto; 
+  }
+}

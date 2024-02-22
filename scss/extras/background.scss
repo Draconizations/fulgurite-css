@@ -1,0 +1,41 @@
+:root {
+  // applied to <body>
+  --bg-color: #cbd3d8; // [background] -- also applied to <html>
+  --bg-image: ""; // [background-image]
+  --bg-position: center; // [background-position]
+  --bg-repeat: none; // [background-repeat]
+  --bg-filter: none; // [backdrop-filter]
+  --bg-text: #181c1f; // [color]
+
+  // applied to <body::after>
+  --bg-gradient: ""; // [background]
+  --bg-gradient-opacity: 0.5;
+}
+
+html {
+  background: var(--bg-color);
+}
+
+body {
+  background: var(--bg-color);
+  background-image: var(--bg-image);
+  background-size: cover;
+  position: relative;
+  z-index: -10;
+  backdrop-filter: var(--bg-filter);
+  background-position: var(--bg-position);
+  background-repeat: var(--bg-repeat);
+  background-attachment: fixed;
+  color: var(--bg-text);
+ }
+
+body::after {
+  position: absolute;
+  inset: 0;
+  background: var(--bg-color); // for compatability
+  background: var(--bg-gradient);
+  opacity: var(--bg-gradient-opacity);
+  z-index: -5;
+  content: "";
+  background-attachment: fixed;
+ }
