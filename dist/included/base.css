@@ -19,7 +19,7 @@
   --btn-bg-color: #08588d;
   --btn-bg-color--hover: #0790a8;
   --btn-text-color: #ffffff;
-  --btn-text-color-hover: #ffffff;
+  --btn-text-color--hover: #ffffff;
   --list-symbol: "›";
   --list-image: "";
 }
@@ -130,7 +130,7 @@ button, input[type=submit], input[type=reset] {
   justify-content: center;
 }
 
-.btn, button, input[type=submit], input[type=reset] {
+.btn, button, input[type=submit], input[type=reset]:hover {
   background-color: var(--btn-bg-color--hover);
   color: var(--btn-text-color--hover);
 }
