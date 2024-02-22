@@ -688,5 +688,17 @@ button, input[type=submit], input[type=reset] {
     width: auto;
   }
 }
+:root {
+  --tag-bg-color: #000000;
+  --tag-text-color: #ffffff;
+}
+
+.tag {
+  margin: 0;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--tag-bg-color);
+  color: var(--tag-text-color);
+}
 
 /*# sourceMappingURL=fulgurite.css.map */
