@@ -5,7 +5,7 @@
   --bg-position: center; // [background-position]
   --bg-repeat: none; // [background-repeat]
   --bg-filter: none; // [backdrop-filter]
-  --bg-text: #181c1f; // [color]
+  --bg-text-color: #181c1f; // [color]
 
   // applied to <body::after>
   --bg-gradient: ""; // [background]
@@ -26,7 +26,7 @@ body {
   background-position: var(--bg-position);
   background-repeat: var(--bg-repeat);
   background-attachment: fixed;
-  color: var(--bg-text);
+  color: var(--bg-text-color);
 }
 
 body::after {
