@@ -36,8 +36,8 @@
 }
 
 .tab-link:hover {
-  color: var(--tab-nav-url-hover);
-  background: var(--tab-nav-bg-hover);
+  color: var(--tab-nav-url-color--hover);
+  background: var(--tab-nav-bg-color--hover);
   text-decoration: underline;
 }
 
