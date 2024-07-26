@@ -27,16 +27,26 @@ hr {
 
 .accent-bg-faded {
   position: relative;
+  z-index: 1;
 }
 
 .accent-bg-faded::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: -1;
   position: absolute;
   background-color: var(--color-accent);
   opacity: 0.3;
+}
+
+.accent-border {
+  border: 1px solid var(--color-accent);
+}
+
+.accent-border-fill {
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
+  background-color: var(--color-accent-text);
 }
 
 button.accent-bg:hover,
@@ -68,16 +78,26 @@ a.accent-text:hover,
 
 .success-bg-faded {
   position: relative;
+  z-index: 1;
 }
 
 .success-bg-faded::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: -1;
   position: absolute;
   background-color: var(--color-success);
   opacity: 0.3;
+}
+
+.success-border {
+  border: 1px solid var(--color-success);
+}
+
+.success-border-fill {
+  border: 1px solid var(--color-success);
+  color: var(--color-success);
+  background-color: var(--color-success-text);
 }
 
 button.success-bg:hover,
@@ -109,16 +129,26 @@ a.success-text:hover,
 
 .error-bg-faded {
   position: relative;
+  z-index: 1;
 }
 
 .error-bg-faded::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: -1;
   position: absolute;
   background-color: var(--color-error);
   opacity: 0.3;
+}
+
+.error-border {
+  border: 1px solid var(--color-error);
+}
+
+.error-border-fill {
+  border: 1px solid var(--color-error);
+  color: var(--color-error);
+  background-color: var(--color-error-text);
 }
 
 button.error-bg:hover,
@@ -150,16 +180,26 @@ a.error-text:hover,
 
 .warning-bg-faded {
   position: relative;
+  z-index: 1;
 }
 
 .warning-bg-faded::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: -1;
   position: absolute;
   background-color: var(--color-warning);
   opacity: 0.3;
+}
+
+.warning-border {
+  border: 1px solid var(--color-warning);
+}
+
+.warning-border-fill {
+  border: 1px solid var(--color-warning);
+  color: var(--color-warning);
+  background-color: var(--color-warning-text);
 }
 
 button.warning-bg:hover,
@@ -191,16 +231,26 @@ a.warning-text:hover,
 
 .info-bg-faded {
   position: relative;
+  z-index: 1;
 }
 
 .info-bg-faded::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  inset: 0;
   z-index: -1;
   position: absolute;
   background-color: var(--color-info);
   opacity: 0.3;
+}
+
+.info-border {
+  border: 1px solid var(--color-info);
+}
+
+.info-border-fill {
+  border: 1px solid var(--color-info);
+  color: var(--color-info);
+  background-color: var(--color-info-text);
 }
 
 button.info-bg:hover,
